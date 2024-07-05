@@ -45,7 +45,7 @@ function getCurrentDay() {
 // Function to display Slack profile picture
 function displayProfilePicture() {
     const img = document.createElement('img');
-    img.src = 'img/FB_IMG_1720158123758.jpg'; // Replace with your actual path
+    img.src = 'img/FB_IMG_1720158123758.jpg'; // Replace with actual path
     img.alt = 'Slack Profile Picture';
     img.setAttribute('data-testid', 'slackProfilePicture');
     document.getElementById('profile-picture').appendChild(img);
